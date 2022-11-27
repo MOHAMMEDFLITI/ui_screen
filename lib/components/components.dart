@@ -89,7 +89,8 @@ horizonteList({
             top:70,
             left:37,
             child:Image.asset(
-                firstCourseImage,
+              firstCourseImage,
+              scale: 2,
             ),
           ),
 

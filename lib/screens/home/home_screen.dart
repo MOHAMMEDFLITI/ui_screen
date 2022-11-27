@@ -69,6 +69,36 @@ class HomeScreen extends StatelessWidget {
 
               ),
             ),
+            const SizedBox(
+              height: 34,
+            ),
+            Column(
+              mainAxisAlignment: MainAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children:
+              [
+                Text(
+                  'Free online class',
+                  style: GoogleFonts.roboto(
+                    fontSize: 25,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white,
+                  ),
+                ),
+                const SizedBox(
+                  height: 11,
+                ),
+                Text(
+                  'from over 80 Lectures',
+                  style: GoogleFonts.roboto(
+                    fontSize: 14,
+                    fontWeight: FontWeight.w500,
+                    color: const Color(0xFF9C9A9A),
+                  ),
+                ),
+              ],
+            ),
+            
           ],
         ),
       ),
